@@ -6,7 +6,7 @@ function Counter() {
 
   return (
     <div className="flex flex-col items-center gap-4">
-      <div className="text-6xl font-bold text-gray-900">{count}</div>
+      <div className="text-6xl font-bold text-foreground">{count}</div>
       <div className="flex gap-2">
         <button
           onClick={decrement}
